@@ -55,7 +55,25 @@ class ListaItem extends StatelessWidget {
                         ),
                       ),
                     ],
-                  ))
+                  )),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  Container(
+                      width: 250,
+                      height: 200,
+                      decoration: BoxDecoration(
+                          border:
+                              Border.all(color: Colors.red.shade900, width: 2),
+                          borderRadius: BorderRadius.circular(15),
+                          color: Colors.white),
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(13),
+                        child: Image.network(
+                          imagenUrl,
+                          fit: BoxFit.fitWidth,
+                        ),
+                      ))
                 ],
               ))),
     );

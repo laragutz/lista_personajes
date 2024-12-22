@@ -17,7 +17,7 @@ class MainApp extends StatelessWidget {
           itemCount: 10,
           itemBuilder: (context, index) {
             return ListaItem(
-                imagenUrl: 'imagenUrl',
+                imagenUrl: 'https://expea.mx/imgs/Expea3.png',
                 titulo: 'titulo',
                 descripcion: 'descripcion',
                 indice: 0);
